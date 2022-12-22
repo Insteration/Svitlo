@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBFCF9B2954FF8100C9C170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCF9A2954FF8100C9C170 /* AppDelegate.swift */; };
+		3CBFCF9D2954FF8100C9C170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCF9C2954FF8100C9C170 /* SceneDelegate.swift */; };
+		3CBFCF9F2954FF8100C9C170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCF9E2954FF8100C9C170 /* ViewController.swift */; };
+		3CBFCFA22954FF8100C9C170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFCFA02954FF8100C9C170 /* Main.storyboard */; };
+		3CBFCFA52954FF8100C9C170 /* Svitlo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFA32954FF8100C9C170 /* Svitlo.xcdatamodeld */; };
+		3CBFCFA72954FF8200C9C170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFCFA62954FF8200C9C170 /* Assets.xcassets */; };
+		3CBFCFAA2954FF8300C9C170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFCFA82954FF8300C9C170 /* LaunchScreen.storyboard */; };
+		3CBFCFB52954FF8300C9C170 /* SvitloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFB42954FF8300C9C170 /* SvitloTests.swift */; };
+		3CBFCFBF2954FF8300C9C170 /* SvitloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFBE2954FF8300C9C170 /* SvitloUITests.swift */; };
+		3CBFCFC12954FF8300C9C170 /* SvitloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFC02954FF8300C9C170 /* SvitloUITestsLaunchTests.swift */; };
+		3CBFCFCF2955020E00C9C170 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFCE2955020E00C9C170 /* Model.swift */; };
+		3CBFCFD12955051300C9C170 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCFD02955051300C9C170 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CBFCFB12954FF8300C9C170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBFCF8F2954FF8100C9C170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBFCF962954FF8100C9C170;
+			remoteInfo = Svitlo;
+		};
+		3CBFCFBB2954FF8300C9C170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBFCF8F2954FF8100C9C170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBFCF962954FF8100C9C170;
+			remoteInfo = Svitlo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBFCF972954FF8100C9C170 /* Svitlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Svitlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBFCF9A2954FF8100C9C170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CBFCF9C2954FF8100C9C170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CBFCF9E2954FF8100C9C170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CBFCFA12954FF8100C9C170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CBFCFA42954FF8100C9C170 /* Svitlo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Svitlo.xcdatamodel; sourceTree = "<group>"; };
+		3CBFCFA62954FF8200C9C170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CBFCFA92954FF8300C9C170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CBFCFAB2954FF8300C9C170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBFCFB02954FF8300C9C170 /* SvitloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBFCFB42954FF8300C9C170 /* SvitloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvitloTests.swift; sourceTree = "<group>"; };
+		3CBFCFBA2954FF8300C9C170 /* SvitloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBFCFBE2954FF8300C9C170 /* SvitloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvitloUITests.swift; sourceTree = "<group>"; };
+		3CBFCFC02954FF8300C9C170 /* SvitloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvitloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CBFCFCE2955020E00C9C170 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3CBFCFD02955051300C9C170 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBFCF942954FF8100C9C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFAD2954FF8300C9C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFB72954FF8300C9C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBFCF8E2954FF8100C9C170 = {
+			isa = PBXGroup;
+			children = (
+				3CBFCF992954FF8100C9C170 /* Svitlo */,
+				3CBFCFB32954FF8300C9C170 /* SvitloTests */,
+				3CBFCFBD2954FF8300C9C170 /* SvitloUITests */,
+				3CBFCF982954FF8100C9C170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBFCF982954FF8100C9C170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCF972954FF8100C9C170 /* Svitlo.app */,
+				3CBFCFB02954FF8300C9C170 /* SvitloTests.xctest */,
+				3CBFCFBA2954FF8300C9C170 /* SvitloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBFCF992954FF8100C9C170 /* Svitlo */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCFCD295501FB00C9C170 /* Model */,
+				3CBFCF9A2954FF8100C9C170 /* AppDelegate.swift */,
+				3CBFCF9C2954FF8100C9C170 /* SceneDelegate.swift */,
+				3CBFCF9E2954FF8100C9C170 /* ViewController.swift */,
+				3CBFCFA02954FF8100C9C170 /* Main.storyboard */,
+				3CBFCFA62954FF8200C9C170 /* Assets.xcassets */,
+				3CBFCFA82954FF8300C9C170 /* LaunchScreen.storyboard */,
+				3CBFCFAB2954FF8300C9C170 /* Info.plist */,
+				3CBFCFA32954FF8100C9C170 /* Svitlo.xcdatamodeld */,
+			);
+			path = Svitlo;
+			sourceTree = "<group>";
+		};
+		3CBFCFB32954FF8300C9C170 /* SvitloTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCFB42954FF8300C9C170 /* SvitloTests.swift */,
+			);
+			path = SvitloTests;
+			sourceTree = "<group>";
+		};
+		3CBFCFBD2954FF8300C9C170 /* SvitloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCFBE2954FF8300C9C170 /* SvitloUITests.swift */,
+				3CBFCFC02954FF8300C9C170 /* SvitloUITestsLaunchTests.swift */,
+			);
+			path = SvitloUITests;
+			sourceTree = "<group>";
+		};
+		3CBFCFCD295501FB00C9C170 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCFCE2955020E00C9C170 /* Model.swift */,
+				3CBFCFD02955051300C9C170 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBFCF962954FF8100C9C170 /* Svitlo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBFCFC42954FF8300C9C170 /* Build configuration list for PBXNativeTarget "Svitlo" */;
+			buildPhases = (
+				3CBFCF932954FF8100C9C170 /* Sources */,
+				3CBFCF942954FF8100C9C170 /* Frameworks */,
+				3CBFCF952954FF8100C9C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Svitlo;
+			productName = Svitlo;
+			productReference = 3CBFCF972954FF8100C9C170 /* Svitlo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CBFCFAF2954FF8300C9C170 /* SvitloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBFCFC72954FF8300C9C170 /* Build configuration list for PBXNativeTarget "SvitloTests" */;
+			buildPhases = (
+				3CBFCFAC2954FF8300C9C170 /* Sources */,
+				3CBFCFAD2954FF8300C9C170 /* Frameworks */,
+				3CBFCFAE2954FF8300C9C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBFCFB22954FF8300C9C170 /* PBXTargetDependency */,
+			);
+			name = SvitloTests;
+			productName = SvitloTests;
+			productReference = 3CBFCFB02954FF8300C9C170 /* SvitloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CBFCFB92954FF8300C9C170 /* SvitloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBFCFCA2954FF8300C9C170 /* Build configuration list for PBXNativeTarget "SvitloUITests" */;
+			buildPhases = (
+				3CBFCFB62954FF8300C9C170 /* Sources */,
+				3CBFCFB72954FF8300C9C170 /* Frameworks */,
+				3CBFCFB82954FF8300C9C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBFCFBC2954FF8300C9C170 /* PBXTargetDependency */,
+			);
+			name = SvitloUITests;
+			productName = SvitloUITests;
+			productReference = 3CBFCFBA2954FF8300C9C170 /* SvitloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBFCF8F2954FF8100C9C170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3CBFCF962954FF8100C9C170 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3CBFCFAF2954FF8300C9C170 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CBFCF962954FF8100C9C170;
+					};
+					3CBFCFB92954FF8300C9C170 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CBFCF962954FF8100C9C170;
+					};
+				};
+			};
+			buildConfigurationList = 3CBFCF922954FF8100C9C170 /* Build configuration list for PBXProject "Svitlo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBFCF8E2954FF8100C9C170;
+			productRefGroup = 3CBFCF982954FF8100C9C170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBFCF962954FF8100C9C170 /* Svitlo */,
+				3CBFCFAF2954FF8300C9C170 /* SvitloTests */,
+				3CBFCFB92954FF8300C9C170 /* SvitloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBFCF952954FF8100C9C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBFCFAA2954FF8300C9C170 /* LaunchScreen.storyboard in Resources */,
+				3CBFCFA72954FF8200C9C170 /* Assets.xcassets in Resources */,
+				3CBFCFA22954FF8100C9C170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFAE2954FF8300C9C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFB82954FF8300C9C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBFCF932954FF8100C9C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBFCFCF2955020E00C9C170 /* Model.swift in Sources */,
+				3CBFCFD12955051300C9C170 /* Data.swift in Sources */,
+				3CBFCFA52954FF8100C9C170 /* Svitlo.xcdatamodeld in Sources */,
+				3CBFCF9F2954FF8100C9C170 /* ViewController.swift in Sources */,
+				3CBFCF9B2954FF8100C9C170 /* AppDelegate.swift in Sources */,
+				3CBFCF9D2954FF8100C9C170 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFAC2954FF8300C9C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBFCFB52954FF8300C9C170 /* SvitloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBFCFB62954FF8300C9C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBFCFBF2954FF8300C9C170 /* SvitloUITests.swift in Sources */,
+				3CBFCFC12954FF8300C9C170 /* SvitloUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CBFCFB22954FF8300C9C170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBFCF962954FF8100C9C170 /* Svitlo */;
+			targetProxy = 3CBFCFB12954FF8300C9C170 /* PBXContainerItemProxy */;
+		};
+		3CBFCFBC2954FF8300C9C170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBFCF962954FF8100C9C170 /* Svitlo */;
+			targetProxy = 3CBFCFBB2954FF8300C9C170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CBFCFA02954FF8100C9C170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBFCFA12954FF8100C9C170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CBFCFA82954FF8300C9C170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBFCFA92954FF8300C9C170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CBFCFC22954FF8300C9C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CBFCFC32954FF8300C9C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CBFCFC52954FF8300C9C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Svitlo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.Svitlo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CBFCFC62954FF8300C9C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Svitlo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.Svitlo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CBFCFC82954FF8300C9C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.SvitloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Svitlo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Svitlo";
+			};
+			name = Debug;
+		};
+		3CBFCFC92954FF8300C9C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.SvitloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Svitlo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Svitlo";
+			};
+			name = Release;
+		};
+		3CBFCFCB2954FF8300C9C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.SvitloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Svitlo;
+			};
+			name = Debug;
+		};
+		3CBFCFCC2954FF8300C9C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4FXKBHXYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ypsilon.SvitloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Svitlo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBFCF922954FF8100C9C170 /* Build configuration list for PBXProject "Svitlo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBFCFC22954FF8300C9C170 /* Debug */,
+				3CBFCFC32954FF8300C9C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBFCFC42954FF8300C9C170 /* Build configuration list for PBXNativeTarget "Svitlo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBFCFC52954FF8300C9C170 /* Debug */,
+				3CBFCFC62954FF8300C9C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBFCFC72954FF8300C9C170 /* Build configuration list for PBXNativeTarget "SvitloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBFCFC82954FF8300C9C170 /* Debug */,
+				3CBFCFC92954FF8300C9C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBFCFCA2954FF8300C9C170 /* Build configuration list for PBXNativeTarget "SvitloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBFCFCB2954FF8300C9C170 /* Debug */,
+				3CBFCFCC2954FF8300C9C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CBFCFA32954FF8100C9C170 /* Svitlo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CBFCFA42954FF8100C9C170 /* Svitlo.xcdatamodel */,
+			);
+			currentVersion = 3CBFCFA42954FF8100C9C170 /* Svitlo.xcdatamodel */;
+			path = Svitlo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CBFCF8F2954FF8100C9C170 /* Project object */;
+}
